@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundoLayout"
+    android:gravity="center_horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView1" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_ip_editar"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/colorTextoTextView"
+                        android:id="@+id/textView22" />
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:background="@drawable/campo"
+                        android:textColor="@color/colorFundoTextView"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:id="@+id/editTextRede"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_porta_editar"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/colorTextoTextView"
+                        android:id="@+id/textView222" />
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:background="@drawable/campo"
+                        android:textColor="@color/colorFundoTextView"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:id="@+id/editTextPorta"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_palavra_editar"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/colorTextoTextView"
+                        android:id="@+id/textView23" />
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:background="@drawable/campo"
+                        android:textColor="@color/colorFundoTextView"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:id="@+id/editTextPalavra"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="320dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/botao"
+                        android:textColor="@color/colorFundoEditText"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/text_salvar"
+                        android:id="@+id/button"
+                        android:onClick="alterar"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

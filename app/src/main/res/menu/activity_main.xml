@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnTemperatura"
+        android:orderInCategory="101"
+        android:alphabeticShortcut="t"
+        android:titleCondensed="Temperature"
+        android:title="Temperature">
+    </item>
+
+    <item
+        android:id="@+id/mnEndereco"
+        android:orderInCategory="102"
+        android:alphabeticShortcut="e"
+        android:titleCondensed="Address"
+        android:title="Address">
+    </item>
+
+    <item
+        android:id="@+id/mnSobre"
+        android:orderInCategory="103"
+        android:alphabeticShortcut="s"
+        android:titleCondensed="About"
+        android:title="About">
+    </item>
+
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Arduino Http LM35</string>
+
+    <!--TextView-->
+    <string name="label_tempcelsius">°C (Celsius):</string>
+    <string name="label_tempkelvin">K (Kelvin):</string>
+    <string name="label_tempfarenheit">°F (Fareinheit):</string>
+
+    <string name="label_ip">IP:</string>
+    <string name="label_porta">Port:</string>
+    <string name="label_palavra">Word:</string>
+
+    <string name="label_ip_editar">IP (edit):</string>
+    <string name="label_porta_editar">Port (edit):</string>
+    <string name="label_palavra_editar">Word (edit and insert in Arduino):</string>
+
+    <!--Button-->
+    <string name="text_salvar">Save</string>
+</resources>
